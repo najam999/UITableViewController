@@ -14,13 +14,13 @@
 		E913FBF4192799AD00C4EF12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E913FBF3192799AD00C4EF12 /* main.m */; };
 		E913FBF8192799AD00C4EF12 /* NAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E913FBF7192799AD00C4EF12 /* NAAppDelegate.m */; };
 		E913FBFB192799AD00C4EF12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E913FBF9192799AD00C4EF12 /* Main.storyboard */; };
-		E913FBFE192799AD00C4EF12 /* NAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E913FBFD192799AD00C4EF12 /* NAViewController.m */; };
 		E913FC00192799AD00C4EF12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E913FBFF192799AD00C4EF12 /* Images.xcassets */; };
 		E913FC07192799AD00C4EF12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E913FC06192799AD00C4EF12 /* XCTest.framework */; };
 		E913FC08192799AD00C4EF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E913FBE7192799AD00C4EF12 /* Foundation.framework */; };
 		E913FC09192799AD00C4EF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E913FBEB192799AD00C4EF12 /* UIKit.framework */; };
 		E913FC11192799AD00C4EF12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E913FC0F192799AD00C4EF12 /* InfoPlist.strings */; };
 		E913FC13192799AD00C4EF12 /* UI_Table_View_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E913FC12192799AD00C4EF12 /* UI_Table_View_ControllerTests.m */; };
+		E913FC1E19279D8F00C4EF12 /* NATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E913FC1D19279D8F00C4EF12 /* NATableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		E913FBF6192799AD00C4EF12 /* NAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAAppDelegate.h; sourceTree = "<group>"; };
 		E913FBF7192799AD00C4EF12 /* NAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAAppDelegate.m; sourceTree = "<group>"; };
 		E913FBFA192799AD00C4EF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E913FBFC192799AD00C4EF12 /* NAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAViewController.h; sourceTree = "<group>"; };
-		E913FBFD192799AD00C4EF12 /* NAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAViewController.m; sourceTree = "<group>"; };
 		E913FBFF192799AD00C4EF12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E913FC05192799AD00C4EF12 /* UI Table View ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Table View ControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E913FC06192799AD00C4EF12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E913FC0E192799AD00C4EF12 /* UI Table View ControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UI Table View ControllerTests-Info.plist"; sourceTree = "<group>"; };
 		E913FC10192799AD00C4EF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E913FC12192799AD00C4EF12 /* UI_Table_View_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_Table_View_ControllerTests.m; sourceTree = "<group>"; };
+		E913FC1C19279D8F00C4EF12 /* NATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NATableViewController.h; sourceTree = "<group>"; };
+		E913FC1D19279D8F00C4EF12 /* NATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NATableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				E913FBF6192799AD00C4EF12 /* NAAppDelegate.h */,
 				E913FBF7192799AD00C4EF12 /* NAAppDelegate.m */,
 				E913FBF9192799AD00C4EF12 /* Main.storyboard */,
-				E913FBFC192799AD00C4EF12 /* NAViewController.h */,
-				E913FBFD192799AD00C4EF12 /* NAViewController.m */,
+				E913FC1C19279D8F00C4EF12 /* NATableViewController.h */,
+				E913FC1D19279D8F00C4EF12 /* NATableViewController.m */,
 				E913FBFF192799AD00C4EF12 /* Images.xcassets */,
 				E913FBEE192799AD00C4EF12 /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E913FBFE192799AD00C4EF12 /* NAViewController.m in Sources */,
 				E913FBF4192799AD00C4EF12 /* main.m in Sources */,
 				E913FBF8192799AD00C4EF12 /* NAAppDelegate.m in Sources */,
+				E913FC1E19279D8F00C4EF12 /* NATableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

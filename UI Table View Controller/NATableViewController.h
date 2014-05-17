@@ -1,5 +1,5 @@
 //
-//  NAViewController.h
+//  NATableViewController.h
 //  UI Table View Controller
 //
 //  Created by Najam on 17/05/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NAViewController : UIViewController
+@interface NATableViewController : UITableViewController
 
 @end
